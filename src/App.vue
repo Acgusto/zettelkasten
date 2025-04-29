@@ -20,18 +20,39 @@
   </header>
   <hr>
   <main>
-   <div class="title">
+   <header>
     <h3 class="title--small">
-    Monday, April 28, 2025
+     Monday, April 28, 2025
     </h3>
-    <h6 class="text--large">
-     18:29 [Bus] 1001 Musics, Day 0001 - Vol. 4 (Black Sabbath)
-    </h6>
-   </div>
-   <div class="text">
-    <img src="https://i.scdn.co/image/ab67616d0000b273f44c5014a32565b63475d7b2" alt="Vol. 4 (Black Sabbath) Cover">
-   </div>
+   </header>
+   <article>
+    <div class="title">
+     <h6 class="text--large">
+      22:20 [Bedroom] 1001 Musics, Day 0001 - Vol. 4 (Black Sabbath)
+     </h6>
+    </div>
+    <div class="content">
+     <p>
+      Vol. 4 é um sólido album de rock, que, até mesmo para alguém como eu (que não ouve muito Heavy Metal) pode se encontrar entrando na atmosfera das músicas e aprendendo a apreciá-las.
+     </p>
+    </div>
+   </article>
+   <article>
+    <div class="title">
+     <h6 class="text--large">
+      18:29 [Bus] 1001 Musics, Day 0001 - Vol. 4 (Black Sabbath)
+     </h6>
+    </div>
+    <div class="content">
+     <img src="https://i.scdn.co/image/ab67616d0000b273f44c5014a32565b63475d7b2" alt="Vol. 4 (Black Sabbath) Cover">
+    </div>
+   </article>
   </main>
+  <footer>
+   <p class="text--small">
+    Copyright &copy; 2025 Aogosto. No rights reserved (freedom of thinking).
+   </p>
+  </footer>
  </div>
 </template>
 
@@ -51,8 +72,14 @@
  hr {
   margin: 10px 0;
  }
- .title {
+ article {
   margin: 10px 0;
+  .title {
+   margin: 10px 0;
+  }
+  .content {
+   margin: 10px 0;
+  }
  }
  img {
   border: 1px solid white;
